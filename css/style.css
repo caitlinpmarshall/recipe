@@ -1,0 +1,210 @@
+/**** BASE ****/
+body {
+    background: #DAF7F6;
+    color: #3B3B3B;
+    font-family: 'Open Sans';
+    font-size: 12px;
+    line-height: 16px;
+}
+
+h2 {
+    color: #F16059;
+    font-family: 'Montserrat', sans serif;
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    color: #F16059;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+/**** HEADER ****/
+
+header {
+    background: #ffffff;
+    padding: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header img {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+header h1 {
+    color: #F16059;
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-size: 48px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/**** MAIN ****/
+main {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/**** EACH CARD IS SPLIT INTO IMAGE, LEFT & RECIPE, RIGHT ****/
+
+.card {
+    background: #ffffff;
+    margin: 30px auto;
+    overflow: auto;
+}
+
+.image {
+    float: left;
+    height: 550px;
+    width: 500px;
+}
+
+.image #cookies {
+    background-image: url(../img/gluten-free-sugar-cookies.jpg);
+    background-size: cover;
+}
+
+.image #pesto {
+    background-image: url(../img/nut-free-pesto.jpg);
+    background-size: cover;
+}
+
+.image #salad {
+    background-image: url(../img/watermelon-salad.jpg);
+    background-size: cover;
+}
+
+.recipe {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    float: left;    
+    height: 550px;
+    width: 500px;
+    padding: 15px;
+} 
+
+/**** TIMING DETAILS AT TOP OF CARD... ****/
+.time {
+    box-sizing: border-box;
+    margin: 10px auto;
+    overflow: auto;
+}
+
+/**** ...ARE IN THREE PARTS ****/
+.prep, .cook, .total {
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    float: left;
+    margin: 0 auto;
+    overflow: auto;
+    width: 32%;
+}
+
+/**** EACH WITH AN IMAGE AND WORDS ****/
+.prep img, .cook img, .total img {
+    display: inline-block;
+    float: left;
+    height: auto;
+    width: 15px;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+
+.time-details {
+    display: inline-block;
+    float: left;
+    line-height: 24px;
+    margin: 0;
+    padding: 2px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.time strong {
+    font-family: 'Montserrat', sans serif;
+}
+
+
+/**** FOLLOWED BY A DESCRIPTION ****/
+.description {
+    width: 460px;
+
+}
+
+/**** AND THEN TWO COLUMNS: INGREDIENTS LEFT AND DIRECTIONS RIGHT ****/
+.columns {
+    width: 460px;
+    overflow: auto;    
+}
+
+.ingredients {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    width: 200px;
+}
+
+.directions {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    width: 255px;
+}
+
+ul {
+    list-style-type: square;
+    float: left;
+    padding-left: 20px;
+    margin: 0;
+}
+
+ol {
+    float: left;
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+/***** RETURN HOME FOOTER *****/
+footer {
+    background: #028090;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #ffffff;
+    padding: 10px;
+    font-family: 'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: capitalize;
+    word-spacing: 3px;
+
+}
+
+footer p a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+
+/**** TA DA! LET'S GET COOKIN'! ****/
