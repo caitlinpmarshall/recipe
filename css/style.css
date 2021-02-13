@@ -65,22 +65,22 @@ main {
 }
 
 .image {
-    float: left;
     height: 550px;
     width: 500px;
+    float: left;
 }
 
-.image #cookies {
+#cookies .image {
     background-image: url(../img/gluten-free-sugar-cookies.jpg);
     background-size: cover;
 }
 
-.image #pesto {
+#pesto .image {
     background-image: url(../img/nut-free-pesto.jpg);
     background-size: cover;
 }
 
-.image #salad {
+#salad .image {
     background-image: url(../img/watermelon-salad.jpg);
     background-size: cover;
 }
@@ -89,7 +89,7 @@ main {
     background-color: #ffffff;
     box-sizing: border-box;
     float: left;    
-    height: 550px;
+    height: auto;
     width: 500px;
     padding: 15px;
 } 
@@ -186,25 +186,22 @@ footer {
     margin: 0;
     padding: 0;
     width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
 }
 
 footer p {
     color: #ffffff;
     padding: 10px;
-    font-family: 'Karla', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 26px;
     line-height: 32px;
-    text-transform: capitalize;
-    word-spacing: 3px;
-
 }
 
 footer p a {
+    font-family: 'Libre Baskerville', serif;
     color: #ffffff;
     text-decoration: none;
-    text-transform: uppercase;
-
 }
 
 /**** TA DA! LET'S GET COOKIN'! ****/
